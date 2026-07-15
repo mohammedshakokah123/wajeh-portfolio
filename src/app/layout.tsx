@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ConnectToast from "@/components/ConnectToast";
 
 export const metadata: Metadata = {
   title: "Wajeh Al-Hawari | Flutter Developer Portfolio",
@@ -31,7 +32,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full scroll-smooth antialiased">
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-full flex-col">
+        {children}
+        <ConnectToast />
+      </body>
     </html>
   );
 }

@@ -63,8 +63,8 @@ export default function Hero() {
 
               <div className="flex w-full flex-col gap-4 pt-2 sm:w-auto sm:flex-row">
                 <a
-                  href="files/cv.pdf"
-                  download="Wajeh_Al-Hawari_CV.pdf"
+                  href="files/WajihHawari_CV_2026.pdf"
+                  download="WajihHawari_CV_2026.pdf"
                   className="flex cursor-pointer items-center justify-center gap-2 rounded-full bg-primary px-8 py-3 font-semibold text-primary-foreground shadow-lg shadow-primary/20 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(67,223,184,0.5)]"
                 >
                   <svg
