@@ -51,6 +51,19 @@ export const projects: Project[] = [
     ],
   },
   {
+    id: 10,
+    title: "Sooq Syria",
+    description:
+      "A comprehensive marketplace app for browsing and purchasing products across Syria. Features include user authentication, product listings, cart management, order tracking, and secure checkout.",
+    image: "/images/sooq syria/cover_image1.png",
+    tags: ["Flutter", "REST API", "Animations", "Riverpod"],
+    links: {
+      google:
+        "https://play.google.com/store/apps/details?id=com.sooqsuria.store.app",
+    },
+    status: "Completed",
+  },
+  {
     id: 2,
     title: "SCA",
     description:
@@ -262,15 +275,5 @@ export const projects: Project[] = [
     screenshots: [
       "/images/dental lap/kl1.jpg",
     ],
-  },
-  {
-    id: 10,
-    title: "Sooq Syria",
-    description:
-      "Beautiful weather forecasts with detailed metrics and location-based alerts. Clean UI design.",
-    image: "/images/sooq syria/cover_image1.png",
-    tags: ["Flutter", "REST API", "Animations", "Riverpod"],
-    links: {},
-    status: "In Progress",
   },
 ];
