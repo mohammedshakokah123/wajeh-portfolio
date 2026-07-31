@@ -38,7 +38,7 @@ export default function Hero() {
               <div className="absolute -inset-1.5 rounded-full bg-gradient-to-r from-primary to-primary/40 opacity-50 blur transition duration-500 group-hover:opacity-80" />
               <div className="relative h-48 w-48 rounded-full border-2 border-primary/30 bg-background p-1.5 lg:h-56 lg:w-56 xl:h-60 xl:w-60">
                 <img
-                  src="https://wajeh-s-portfolio.vercel.app/images/profile.jpg"
+                  src="/images/profile.jpg"
                   alt="Wajeh Al-Hawari"
                   className="h-full w-full rounded-full object-cover"
                 />
